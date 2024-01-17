@@ -4,20 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
+    <title>Shashank Patil - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
 
-        h1 {
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
             color: #333;
         }
 
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
         p {
-            color: #666;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -25,39 +64,47 @@
 <body>
 
     <header>
-        <h1>Welcome to My Website!!! This is my 1st codepipe line with AWS...</h1>
+        <h1>Shashank Patil</h1>
+        <p>Cloud Architect | Devops Engineer</p>
     </header>
 
-    <nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Shashank Patil, a passionate DevOps engineer and cloud architec with a strong background in cloud engineering. I love
+            creating beautiful and functional websites that make a positive impact.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
         <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <!-- Add more skills as needed -->
         </ul>
-    </nav>
+    </section>
 
-    <main>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Project 1 - Design and implemented AWS 3-Tier architecture for web application</h3>
+            <p>. Design and implemented AWS 3-Tier architecture for web application with High avalibility and Scalability</p>
+        </div>
+        <div>
+            <h3>Project 2 - Kubernetes cluster Monitoring</h3>
+            <p>•	Design & Develop Kubernetes-based monitoring and logging solutions</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
 
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>This is the content of section 1.</p>
-        </section>
-
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>This is the content of section 2.</p>
-        </section>
-
-        <section id="section3">
-            <h2>Section 3</h2>
-            <p>This is the content of section 3.</p>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me. You can find me on <a href="https://www.linkedin.com/in/shashankpatil/"
+                target="_blank">LinkedIn</a> or send me an email at <a
+                href="mailto:shashank@example.com">shashank@example.com</a>.</p>
+    </section>
 
 </body>
 
